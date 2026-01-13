@@ -199,7 +199,9 @@ To add features (e.g., keyboard shortcuts, animation toggles, multiple profiles)
 
 ## 📄 License
 
-MIT License – Feel free to use, modify, and distribute this extension.
+**Proprietary License** – Copyright © 2026 [Your Name]. All rights reserved.  
+Free for personal use. Commercial use, redistribution, or modification prohibited without permission.
+
 
 ---
 
