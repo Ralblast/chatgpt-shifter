@@ -1,0 +1,18 @@
+
+:root {
+  --shifter-offset: 0px;
+}
+
+
+body.shifter-active main,
+body.shifter-active [role="main"],
+body.shifter-active section.w-full {
+  transform: translateX(var(--shifter-offset)) !important;
+  transition: transform 0.2s cubic-bezier(0.2, 0, 0.2, 1) !important; 
+  will-change: transform;
+  position: relative;
+}
+
+body.shifter-active {
+  overflow-x: hidden;
+}
