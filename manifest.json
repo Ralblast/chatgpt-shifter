@@ -1,13 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Layout Shifter ",
-  "version": "1",
-  "description": "Professional layout control for ChatGPT.",
+  "name": "ChatGPT Layout Shifter",
+  "version": "3.2",
+  "description": "Shift the ChatGPT chat column left or right — code side-by-side on one screen.",
   "permissions": ["storage", "activeTab", "scripting", "tabs"],
-  "host_permissions": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Adjust Layout"
+    "default_title": "ChatGPT Shifter"
   },
   "content_scripts": [
     {
